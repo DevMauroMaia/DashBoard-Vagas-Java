@@ -40,7 +40,6 @@ with st.sidebar:
         st.success(f"{len(df)} vagas carregadas de vagas_java.csv")
 
 tab1, tab2, tab3, tab4 = st.tabs(
-    ["👋 Quem sou eu", "🎓 Minhas Qualificações", "🛠️ Skills", "📊 Análise de Dados"]
 )
 
 # ---------- Aba 1: Quem sou eu ----------
