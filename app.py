@@ -40,7 +40,7 @@ with st.sidebar:
         st.success(f"{len(df)} vagas carregadas de vagas_java.csv")
 
 tab1, tab2, tab3, tab4 = st.tabs(
-        ["👋 Quem sou eu", "🎓 Minhas Qualificações", "🛠️ Skills", "📊 Análise de Dados"]
+    ["👋 Quem sou eu", "🎓 Minhas Qualificações", "🛠️ Skills", "📊 Análise de Dados"]
 )
 
 # ---------- Aba 1: Quem sou eu ----------
@@ -70,7 +70,6 @@ with tab1:
             time de verdade.
             """
         )
-        st.caption("💡 Se quiser, ajuste o tom — deixei o texto direto e técnico, mas é seu espaço pra imprimir sua voz.")
 
     st.markdown("---")
     c1, c2, c3 = st.columns(3)
